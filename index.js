@@ -31,15 +31,15 @@ function calculator() {
       document.write(`${num1} / ${num2} = ${result}`);
       break;
 
-    case "%":
-      result = num1 % num2;
-      document.write(`${num1} % ${num2} = ${result}`);
-      break;
+    // case "%":
+    //   result = num1 % num2;
+    //   document.write(`${num1} % ${num2} = ${result}`);
+    //   break;
 
-    case "^":
-      result = num1 ^ num2;
-      document.write(`${num1} ^ ${num2} = ${result}`);
-      break;
+    // case "^":
+    //   result = num1 ^ num2;
+    //   document.write(`${num1} ^ ${num2} = ${result}`);
+    //   break;
 
     default:
       document.write("invalid operator");
